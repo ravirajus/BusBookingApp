@@ -7,6 +7,7 @@ namespace ServiceLayer.Interface
 {
     public interface ITicketsBookingOperations
     {
+
         //assuming we are taken Bus KA01 
         public List<ListbusSeatdetailsLower> GetAvilableBusTicketsDetails(DateTime BookingDate, string busnumber);
 
